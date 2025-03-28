@@ -1,0 +1,6 @@
+@_2122110336_phandinhco_HostAddress = http://localhost:5081
+
+GET {{_2122110336_phandinhco_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
