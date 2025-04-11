@@ -2,6 +2,8 @@
 {
     public class CategoryDTO
     {
+        internal int id;
+
         public string Name { get; set; }
         public string Avatar { get; set; }
     }
