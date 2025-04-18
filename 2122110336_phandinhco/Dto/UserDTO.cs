@@ -1,12 +1,16 @@
-﻿namespace _2122110336_phandinhco.Dto
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http.HttpResults;
+using Microsoft.AspNetCore.Mvc;
+
+namespace _2122110336_phandinhco.Dto
 {
     public class UserDTO
     {
-        public int Id { get; set; }
-        public string Name { get; set; } = null!;
-        public string Email { get; set; } = null!;
-        public string Role { get; set; } = null!;
-        public DateTime CreateAt { get; set; }
-        public DateTime UpdateAt { get; set; }
+            public string Email { get; set; }
+            public string Password { get; set; }
+        
+
+
+        
     }
 }

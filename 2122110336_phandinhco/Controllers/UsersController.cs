@@ -1,163 +1,146 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using _2122110336_phandinhco.Model;
-using _2122110336_phandinhco.Data;
-using Microsoft.EntityFrameworkCore;
-using _2122110336_phandinhco.Dto;
+﻿using _2122110336_phandinhco.Dto;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.IdentityModel.Tokens;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
-using System.Security.Cryptography;
+using Microsoft.EntityFrameworkCore;
 
-namespace _2122110336_phandinhco.Controllers
+using Microsoft.AspNetCore.Identity.Data;
+using _2122110336_phandinhco.Data;
+using _2122110336_phandinhco.Model;
+
+
+[ApiController]
+[Route("api/[controller]")]
+public class AuthController : ControllerBase
 {
-    [Route("api/[controller]")]
-    [ApiController]
-    public class UsersController : ControllerBase
+    private readonly IConfiguration _configuration;
+    private readonly AppDbContext _context;
+
+    public AuthController(IConfiguration configuration, AppDbContext context)
     {
-        private readonly AppDbContext _context;
-        private string HashPassword(string password)
-        {
-            using (var sha256 = SHA256.Create())
-            {
-                var bytes = Encoding.UTF8.GetBytes(password);
-                var hash = sha256.ComputeHash(bytes);
-                return Convert.ToBase64String(hash);
-            }
-        }
-
-        public UsersController(AppDbContext context)
-        {
-            _context = context;
-        }
-
-        // GET: api/Users
-        [HttpGet]
-        public async Task<ActionResult<IEnumerable<UserDTO>>> GetUsers()
-        {
-            var users = await _context.Users
-                .Select(u => new UserDTO
-                {
-                    Id = u.id,
-                    Name = u.name,
-                    Email = u.email,
-                    Role = u.role,
-                    CreateAt = u.createAt,
-                    UpdateAt = u.updateAt
-                })
-                .ToListAsync();
-
-            return Ok(users);
-        }
-
-
-        // GET: api/Users/5
-        [HttpGet("{id}")]
-        public async Task<ActionResult<User>> GetUser(int id)
-        {
-            var user = await _context.Users.FindAsync(id);
-
-            if (user == null)
-            {
-                return NotFound(new { message = "User not found" });
-            }
-
-            return user;
-        }
-
-        // POST: api/Users
-        [HttpPost]
-        [HttpPost]
-        public async Task<ActionResult<User>> PostUser([FromBody] User user)
-        {
-            user.password = HashPassword(user.password); // mã hoá
-            user.createAt = DateTime.Now;
-            user.updateAt = DateTime.Now;
-
-            _context.Users.Add(user);
-            await _context.SaveChangesAsync();
-
-            return CreatedAtAction(nameof(GetUser), new { id = user.id }, user);
-        }
-
-
-        // PUT: api/Users/5
-        [HttpPut("{id}")]
-        public async Task<IActionResult> PutUser(int id, [FromBody] User user)
-        {
-            if (id != user.id)
-            {
-                return BadRequest(new { message = "User ID mismatch" });
-            }
-
-            var existingUser = await _context.Users.FindAsync(id);
-            if (existingUser == null)
-            {
-                return NotFound(new { message = "User not found" });
-            }
-
-            existingUser.name = user.name;
-            existingUser.email = user.email;
-            existingUser.password = user.password;
-            existingUser.role = user.role;
-            existingUser.updateAt = DateTime.Now;
-
-            _context.Entry(existingUser).State = EntityState.Modified;
-            await _context.SaveChangesAsync();
-
-            return NoContent();
-        }
-
-        // DELETE: api/Users/5
-        [HttpDelete("{id}")]
-        public async Task<IActionResult> DeleteUser(int id)
-        {
-            var user = await _context.Users.FindAsync(id);
-            if (user == null)
-            {
-                return NotFound(new { message = "User not found" });
-            }
-
-            _context.Users.Remove(user);
-            await _context.SaveChangesAsync();
-
-            return NoContent();
-        }
-        private string GenerateRandomToken()
-        {
-            return Convert.ToBase64String(RandomNumberGenerator.GetBytes(256));
-        }
-
-
-        [HttpPost("login")]
-        public async Task<IActionResult> Login([FromBody] LoginDTO loginDto)
-        {
-            var hashedPassword = HashPassword(loginDto.Password);
-
-            var user = await _context.Users
-                .FirstOrDefaultAsync(u => u.email == loginDto.Email && u.password == hashedPassword);
-
-            if (user == null)
-            {
-                return Unauthorized(new { message = "Invalid email or password" });
-            }
-
-            var token = GenerateRandomToken();
-
-            return Ok(new
-            {
-                token,
-                user = new
-                {
-                    user.id,
-                    user.name,
-                    user.email,
-                    user.role
-                }
-            });
-        }
-
-
+        _configuration = configuration;
+        _context = context;
     }
+
+    [HttpPost("register")]
+    public IActionResult Register([FromBody] _2122110336_phandinhco.Request.RegisterRequest request)
+    {
+        // Kiểm tra input
+        if (string.IsNullOrEmpty(request.Email) || string.IsNullOrEmpty(request.Password))
+        {
+            return BadRequest(new { message = "Email and password are required." });
+        }
+
+        // Kiểm tra email đã tồn tại
+        var existingUser = _context.Users.FirstOrDefault(u => u.email == request.Email);
+        if (existingUser != null)
+        {
+            return BadRequest(new { message = "Email already exists." });
+        }
+
+        // Mã hóa mật khẩu
+        var user = new User
+        {
+            name = request.Name,
+            email = request.Email
+        };
+
+        var passwordHasher = new PasswordHasher<User>();
+        user.password = passwordHasher.HashPassword(user, request.Password);
+
+        // Gán UserRoles
+        user.UserRoles = request.Roles.Select(roleId => new UserRoles
+        {
+            RoleId = roleId,
+            User = user
+        }).ToList();
+
+        _context.Users.Add(user);
+        _context.SaveChanges();
+
+        var token = GenerateJwtToken(user.email);
+
+        return Ok(new
+        {
+            message = "User registered successfully",
+            token = token
+        });
+    }
+
+
+
+    [HttpPost("login")]
+    public IActionResult Login([FromBody] UserDTO user)
+    {
+        // Kiểm tra input đơn giản
+        if (string.IsNullOrEmpty(user.Email) || string.IsNullOrEmpty(user.Password))
+        {
+            return BadRequest(new { message = "Email and password are required." });
+        }
+
+        // Kiểm tra email và mật khẩu
+        var existingUser = _context.Users.FirstOrDefault(u => u.email == user.Email);
+        if (existingUser == null)
+        {
+            return Unauthorized(new { message = "Invalid email or password." });
+        }
+
+        var passwordHasher = new PasswordHasher<UserDTO>();
+        var passwordVerificationResult = passwordHasher.VerifyHashedPassword(user, existingUser.password, user.Password);
+
+        if (passwordVerificationResult == PasswordVerificationResult.Failed)
+        {
+            return Unauthorized(new { message = "Invalid email or password." });
+        }
+
+        var token = GenerateJwtToken(existingUser.email);
+
+        return Ok(new
+        {
+            message = "Login successful",
+            token = token
+        });
+    }
+
+    private string GenerateJwtToken(string email)
+    {
+        var user = _context.Users
+            .Include(u => u.UserRoles)
+            .ThenInclude(ur => ur.Role)
+            .FirstOrDefault(u => u.email == email);
+
+        if (user == null)
+            throw new Exception("User not found.");
+
+        var claims = new List<Claim>
+    {
+        new Claim(JwtRegisteredClaimNames.Sub, email),
+        new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString()),
+        new Claim(ClaimTypes.Name, user.name)
+    };
+
+        // Thêm các role vào claims
+        foreach (var userRole in user.UserRoles)
+        {
+            claims.Add(new Claim(ClaimTypes.Role, userRole.Role.RoleName));
+        }
+
+        var jwtKey = _configuration["Jwt:Key"];
+        var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(jwtKey));
+        var creds = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
+
+        var token = new JwtSecurityToken(
+            issuer: "phandinhco",
+            audience: "your-audience",
+            claims: claims,
+            expires: DateTime.Now.AddMinutes(30),
+            signingCredentials: creds);
+
+        return new JwtSecurityTokenHandler().WriteToken(token);
+    }
+
 
 }

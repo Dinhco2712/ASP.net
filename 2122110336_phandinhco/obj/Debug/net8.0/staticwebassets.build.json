@@ -1,12 +1,228 @@
 {
   "Version": 1,
-  "Hash": "viYbJPP6ToOAfS5ABXVhuT3MttdJHs6dLV1iDrfS9FE=",
+  "Hash": "0+cN1IKG1oPUG6HSM9QejI+nXevumicdmKv2Qv5yKFY=",
   "Source": "2122110336_phandinhco",
   "BasePath": "_content/2122110336_phandinhco",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": [],
-  "Endpoints": []
+  "DiscoveryPatterns": [
+    {
+      "Name": "2122110336_phandinhco\\wwwroot",
+      "Source": "2122110336_phandinhco",
+      "ContentRoot": "C:\\Users\\Dinh Co\\Desktop\\2122110336_phandinhco\\2122110336_phandinhco\\wwwroot\\",
+      "BasePath": "_content/2122110336_phandinhco",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\Dinh Co\\Desktop\\2122110336_phandinhco\\2122110336_phandinhco\\wwwroot\\images\\tải xuống (1).jpg",
+      "SourceId": "2122110336_phandinhco",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Dinh Co\\Desktop\\2122110336_phandinhco\\2122110336_phandinhco\\wwwroot\\",
+      "BasePath": "_content/2122110336_phandinhco",
+      "RelativePath": "images/tải xuống (1)#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "6pcac28ss7",
+      "Integrity": "Nk1wPSkn9YCxalDK6dCyb7Nafdj6Y04ifpsRXMF1bmg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\tải xuống (1).jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Dinh Co\\Desktop\\2122110336_phandinhco\\2122110336_phandinhco\\wwwroot\\images\\tải xuống.jpg",
+      "SourceId": "2122110336_phandinhco",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Dinh Co\\Desktop\\2122110336_phandinhco\\2122110336_phandinhco\\wwwroot\\",
+      "BasePath": "_content/2122110336_phandinhco",
+      "RelativePath": "images/tải xuống#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "rtdly63lpp",
+      "Integrity": "wRwkl5Vi/Uym+cenFvxtnho4eq8Gdu/3Rt3wbV5Tft8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\tải xuống.jpg"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "images/tải xuống (1).6pcac28ss7.jpg",
+      "AssetFile": "C:\\Users\\Dinh Co\\Desktop\\2122110336_phandinhco\\2122110336_phandinhco\\wwwroot\\images\\tải xuống (1).jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4721"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Nk1wPSkn9YCxalDK6dCyb7Nafdj6Y04ifpsRXMF1bmg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 18 Apr 2025 07:46:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6pcac28ss7"
+        },
+        {
+          "Name": "label",
+          "Value": "images/tải xuống (1).jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Nk1wPSkn9YCxalDK6dCyb7Nafdj6Y04ifpsRXMF1bmg="
+        }
+      ]
+    },
+    {
+      "Route": "images/tải xuống (1).jpg",
+      "AssetFile": "C:\\Users\\Dinh Co\\Desktop\\2122110336_phandinhco\\2122110336_phandinhco\\wwwroot\\images\\tải xuống (1).jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4721"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Nk1wPSkn9YCxalDK6dCyb7Nafdj6Y04ifpsRXMF1bmg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 18 Apr 2025 07:46:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Nk1wPSkn9YCxalDK6dCyb7Nafdj6Y04ifpsRXMF1bmg="
+        }
+      ]
+    },
+    {
+      "Route": "images/tải xuống.jpg",
+      "AssetFile": "C:\\Users\\Dinh Co\\Desktop\\2122110336_phandinhco\\2122110336_phandinhco\\wwwroot\\images\\tải xuống.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8711"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wRwkl5Vi/Uym+cenFvxtnho4eq8Gdu/3Rt3wbV5Tft8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 18 Apr 2025 07:59:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-wRwkl5Vi/Uym+cenFvxtnho4eq8Gdu/3Rt3wbV5Tft8="
+        }
+      ]
+    },
+    {
+      "Route": "images/tải xuống.rtdly63lpp.jpg",
+      "AssetFile": "C:\\Users\\Dinh Co\\Desktop\\2122110336_phandinhco\\2122110336_phandinhco\\wwwroot\\images\\tải xuống.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8711"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wRwkl5Vi/Uym+cenFvxtnho4eq8Gdu/3Rt3wbV5Tft8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 18 Apr 2025 07:59:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "rtdly63lpp"
+        },
+        {
+          "Name": "label",
+          "Value": "images/tải xuống.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-wRwkl5Vi/Uym+cenFvxtnho4eq8Gdu/3Rt3wbV5Tft8="
+        }
+      ]
+    }
+  ]
 }

@@ -1,6 +1,7 @@
 ﻿using _2122110336_phandinhco.Data;
 using _2122110336_phandinhco.Dto;
 using _2122110336_phandinhco.Model;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
@@ -38,6 +39,7 @@ namespace _2122110336_phandinhco.Controllers
         }
 
         // POST api/<CategoryController>
+        //[Authorize(Policy = "AdminPolicy")] // Chỉ admin mới được tạo
         [HttpPost]
         public IActionResult Post([FromBody] CategoryDTO dto)
         {
@@ -55,6 +57,7 @@ namespace _2122110336_phandinhco.Controllers
             return Ok(new { message = "Category created", category });
         }
         // PUT api/<CategoryController>/5
+        //[Authorize(Policy = "AdminPolicy")] // Chỉ admin mới được tạo
         [HttpPut("{id}")]
         public IActionResult Put(int id, [FromBody] CategoryDTO dto)
         {
@@ -76,6 +79,7 @@ namespace _2122110336_phandinhco.Controllers
         }
 
         // DELETE api/<CategoryController>/5
+        //[Authorize(Policy = "AdminPolicy")] // Chỉ admin mới được tạo
         [HttpDelete("{id}")]
         public async Task<IActionResult> Delete(int id)
         {

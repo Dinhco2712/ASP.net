@@ -1,0 +1,28 @@
+﻿<Project>
+  <ItemGroup>
+    <StaticWebAssetEndpoint Include="_content/2122110336_phandinhco/images/tải xuống (1).6pcac28ss7.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\tải xuống (1).jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"6pcac28ss7"},{"Name":"integrity","Value":"sha256-Nk1wPSkn9YCxalDK6dCyb7Nafdj6Y04ifpsRXMF1bmg="},{"Name":"label","Value":"_content/2122110336_phandinhco/images/t\u1EA3i xu\u1ED1ng (1).jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"4721"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022Nk1wPSkn9YCxalDK6dCyb7Nafdj6Y04ifpsRXMF1bmg=\u0022"},{"Name":"Last-Modified","Value":"Fri, 18 Apr 2025 07:46:39 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/2122110336_phandinhco/images/tải xuống (1).jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\tải xuống (1).jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-Nk1wPSkn9YCxalDK6dCyb7Nafdj6Y04ifpsRXMF1bmg="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"4721"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022Nk1wPSkn9YCxalDK6dCyb7Nafdj6Y04ifpsRXMF1bmg=\u0022"},{"Name":"Last-Modified","Value":"Fri, 18 Apr 2025 07:46:39 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/2122110336_phandinhco/images/tải xuống.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\tải xuống.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-wRwkl5Vi/Uym\u002BcenFvxtnho4eq8Gdu/3Rt3wbV5Tft8="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"8711"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022wRwkl5Vi/Uym\u002BcenFvxtnho4eq8Gdu/3Rt3wbV5Tft8=\u0022"},{"Name":"Last-Modified","Value":"Fri, 18 Apr 2025 07:59:15 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/2122110336_phandinhco/images/tải xuống.rtdly63lpp.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\tải xuống.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"rtdly63lpp"},{"Name":"integrity","Value":"sha256-wRwkl5Vi/Uym\u002BcenFvxtnho4eq8Gdu/3Rt3wbV5Tft8="},{"Name":"label","Value":"_content/2122110336_phandinhco/images/t\u1EA3i xu\u1ED1ng.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"8711"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022wRwkl5Vi/Uym\u002BcenFvxtnho4eq8Gdu/3Rt3wbV5Tft8=\u0022"},{"Name":"Last-Modified","Value":"Fri, 18 Apr 2025 07:59:15 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,33 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Dinh Co\\Desktop\\2122110336_phandinhco\\2122110336_phandinhco\\wwwroot\\images\\tải xuống (1).jpg",
+      "PackagePath": "staticwebassets\\images\\tải xuống (1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dinh Co\\Desktop\\2122110336_phandinhco\\2122110336_phandinhco\\wwwroot\\images\\tải xuống.jpg",
+      "PackagePath": "staticwebassets\\images\\tải xuống.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.2122110336_phandinhco.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.2122110336_phandinhco.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.2122110336_phandinhco.props",
+      "PackagePath": "build\\2122110336_phandinhco.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.2122110336_phandinhco.props",
+      "PackagePath": "buildMultiTargeting\\2122110336_phandinhco.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.2122110336_phandinhco.props",
+      "PackagePath": "buildTransitive\\2122110336_phandinhco.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -1,6 +1,7 @@
 ﻿using _2122110336_phandinhco.Data;
 using _2122110336_phandinhco.Dto;
 using _2122110336_phandinhco.Model;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
@@ -26,12 +27,80 @@ namespace _2122110336_phandinhco.Controllers
                     Id = p.id,
                     Name = p.name,
                     CategoryId = p.CategoryId,
-                    CategoryName = p.Category.name
+                    CategoryName = p.Category.name,
+                    avatar =p.avatar,
+                    Price=p.price,
+                    quantity=p.quantity,
+                    Description=  p.description,
+                    createAt= p.createAt,
+                    updateAt = p.updateAt
                 }).ToListAsync();
 
             return Ok(products);
         }
+        // Upload hình ảnh cho sản phẩm
+        [HttpPut("{id}/image")]
+        public async Task<IActionResult> UpdateProductImage(int id, IFormFile image)
+        {
+            if (image == null || image.Length == 0)
+            {
+                return BadRequest("No image uploaded.");
+            }
 
+            var product = await _context.Products.FirstOrDefaultAsync(p => p.id == id);
+            if (product == null)
+            {
+                return NotFound(new { message = "Product not found" });
+            }
+
+            // Save file into wwwroot/images
+            var fileName = Path.GetFileName(image.FileName);
+            var uploadPath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/images");
+
+            Directory.CreateDirectory(uploadPath); // Create directory if it doesn't exist
+
+            var filePath = Path.Combine(uploadPath, fileName);
+            using (var stream = new FileStream(filePath, FileMode.Create))
+            {
+                await image.CopyToAsync(stream);
+            }
+
+            // Update image path in the database
+            product.avatar = "/images/" + fileName;
+            _context.Products.Update(product);
+            await _context.SaveChangesAsync();
+
+            // Return DTO
+            var productDto = new ProductDto
+            {
+                Id = product.id,
+                Name = product. name,
+                avatar = product.avatar
+            };
+
+            return Ok(productDto);
+        }
+        [HttpGet("{id}/image")]
+        public async Task<IActionResult> GetProductImage(int id)
+        {
+            var product = await _context.Products.FindAsync(id);
+            if (product == null || string.IsNullOrEmpty(product.avatar))
+            {
+                return NotFound("Product or image not found");
+            }
+
+            var filePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", product.avatar.TrimStart('/'));
+
+            if (!System.IO.File.Exists(filePath))
+            {
+                return NotFound("Image file not found");
+            }
+
+            var imageBytes = await System.IO.File.ReadAllBytesAsync(filePath);
+            var contentType = "image/" + Path.GetExtension(filePath).Trim('.'); // ví dụ: image/jpg, image/png
+
+            return File(imageBytes, contentType);
+        }
 
 
         [HttpGet("{id}")]
@@ -46,6 +115,8 @@ namespace _2122110336_phandinhco.Controllers
                     Name = p.name,
                     CategoryId = p.CategoryId,
                     CategoryName = p.Category.name
+
+
                 })
                 .FirstOrDefaultAsync();
 
@@ -59,21 +130,32 @@ namespace _2122110336_phandinhco.Controllers
 
 
         // POST api/Product
+        // POST api/<ProductController>
         [HttpPost]
-        public async Task<IActionResult> Post([FromBody] Product product)
+       
+        public IActionResult Post([FromBody] Product pro)
         {
-            if (product == null)
+            var category = _context.categories.FirstOrDefault(c => c.id == pro.CategoryId);
+            if (category == null)
             {
-                return BadRequest(new { message = "Invalid product data" });
+                return BadRequest("Invalid category ID");
             }
 
-            product.createAt = DateTime.Now;
-            product.updateAt = DateTime.Now;
-
+            var product = new Product
+            {
+                name = pro.name,
+                avatar = pro.avatar,
+                price = pro.price,
+                CategoryId = pro.CategoryId,
+                description = pro.description,
+                quantity=pro.quantity,
+                createAt = DateTime.Now,
+                updateAt = DateTime.Now
+            };
             _context.Products.Add(product);
-            await _context.SaveChangesAsync();
+            _context.SaveChanges();
 
-            return CreatedAtAction(nameof(GetProductById), new { id = product.id }, product);
+            return Ok(new { message = "Product created", product });
         }
 
         // PUT api/Product/5
@@ -94,6 +176,8 @@ namespace _2122110336_phandinhco.Controllers
             existingProduct.name = product.name;
             existingProduct.avatar = product.avatar;
             existingProduct.price = product.price;
+            existingProduct.description = product.description;
+            existingProduct.quantity = product.quantity;
             existingProduct.CategoryId = product.CategoryId;
             existingProduct.updateAt = DateTime.Now;
 
