@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "0+cN1IKG1oPUG6HSM9QejI+nXevumicdmKv2Qv5yKFY=",
+  "Hash": "gl8ZObC5wgqmRoAvYiaOrmXX6JHbuDesiTNGrYlDJNs=",
   "Source": "2122110336_phandinhco",
   "BasePath": "_content/2122110336_phandinhco",
   "Mode": "Default",
@@ -16,6 +16,195 @@
     }
   ],
   "Assets": [
+    {
+      "Identity": "C:\\Users\\Dinh Co\\Desktop\\2122110336_phandinhco\\2122110336_phandinhco\\wwwroot\\images\\dien-thoai-samsung-galaxy-s25-ultra_2__3_1.webp",
+      "SourceId": "2122110336_phandinhco",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Dinh Co\\Desktop\\2122110336_phandinhco\\2122110336_phandinhco\\wwwroot\\",
+      "BasePath": "_content/2122110336_phandinhco",
+      "RelativePath": "images/dien-thoai-samsung-galaxy-s25-ultra_2__3_1#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "cpug1dihyu",
+      "Integrity": "kKuUQTwQpfyr+3AhEdklhCEcVJJEaVVh3qr/xjOONBo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\dien-thoai-samsung-galaxy-s25-ultra_2__3_1.webp"
+    },
+    {
+      "Identity": "C:\\Users\\Dinh Co\\Desktop\\2122110336_phandinhco\\2122110336_phandinhco\\wwwroot\\images\\dien-thoai-xiaomi-redmi-note-14-5g.1.webp",
+      "SourceId": "2122110336_phandinhco",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Dinh Co\\Desktop\\2122110336_phandinhco\\2122110336_phandinhco\\wwwroot\\",
+      "BasePath": "_content/2122110336_phandinhco",
+      "RelativePath": "images/dien-thoai-xiaomi-redmi-note-14-5g.1#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "jjmm408gcj",
+      "Integrity": "nx/72THVoiVPMtctiOvePwZFXO/smMsyqt01Hb+PGB8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\dien-thoai-xiaomi-redmi-note-14-5g.1.webp"
+    },
+    {
+      "Identity": "C:\\Users\\Dinh Co\\Desktop\\2122110336_phandinhco\\2122110336_phandinhco\\wwwroot\\images\\Flag_of_Vietnam.svg.png",
+      "SourceId": "2122110336_phandinhco",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Dinh Co\\Desktop\\2122110336_phandinhco\\2122110336_phandinhco\\wwwroot\\",
+      "BasePath": "_content/2122110336_phandinhco",
+      "RelativePath": "images/Flag_of_Vietnam.svg#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "wh071m8314",
+      "Integrity": "vAiTysjz/uqGqsZjkrxgXtigGF5dOuipSEYS5j5OpLo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Flag_of_Vietnam.svg.png"
+    },
+    {
+      "Identity": "C:\\Users\\Dinh Co\\Desktop\\2122110336_phandinhco\\2122110336_phandinhco\\wwwroot\\images\\frame_166_3.webp",
+      "SourceId": "2122110336_phandinhco",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Dinh Co\\Desktop\\2122110336_phandinhco\\2122110336_phandinhco\\wwwroot\\",
+      "BasePath": "_content/2122110336_phandinhco",
+      "RelativePath": "images/frame_166_3#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "8g13c5srno",
+      "Integrity": "GGp4BHpqIwJ60A9TYfWg/C3w0yUEQEqvdZ+Ld52V9Xs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\frame_166_3.webp"
+    },
+    {
+      "Identity": "C:\\Users\\Dinh Co\\Desktop\\2122110336_phandinhco\\2122110336_phandinhco\\wwwroot\\images\\iphone11.png",
+      "SourceId": "2122110336_phandinhco",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Dinh Co\\Desktop\\2122110336_phandinhco\\2122110336_phandinhco\\wwwroot\\",
+      "BasePath": "_content/2122110336_phandinhco",
+      "RelativePath": "images/iphone11#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "jhjsmp8bvu",
+      "Integrity": "WZQBm1c8fyf11e+6vRQavD/vQ7jOThROanNpjLbM7Ug=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\iphone11.png"
+    },
+    {
+      "Identity": "C:\\Users\\Dinh Co\\Desktop\\2122110336_phandinhco\\2122110336_phandinhco\\wwwroot\\images\\iphone13.png",
+      "SourceId": "2122110336_phandinhco",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Dinh Co\\Desktop\\2122110336_phandinhco\\2122110336_phandinhco\\wwwroot\\",
+      "BasePath": "_content/2122110336_phandinhco",
+      "RelativePath": "images/iphone13#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "s1wogqlwky",
+      "Integrity": "QMAQEuF4bB9w1paV8k1c6tKdZa7LKMlvg0jDUB+rJ+s=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\iphone13.png"
+    },
+    {
+      "Identity": "C:\\Users\\Dinh Co\\Desktop\\2122110336_phandinhco\\2122110336_phandinhco\\wwwroot\\images\\iphone14pm.png",
+      "SourceId": "2122110336_phandinhco",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Dinh Co\\Desktop\\2122110336_phandinhco\\2122110336_phandinhco\\wwwroot\\",
+      "BasePath": "_content/2122110336_phandinhco",
+      "RelativePath": "images/iphone14pm#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "flnu0ltc0a",
+      "Integrity": "Delie+LRDs7EewOZuGBRAVx5Unde0DTRtaLn+Z6uuxQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\iphone14pm.png"
+    },
+    {
+      "Identity": "C:\\Users\\Dinh Co\\Desktop\\2122110336_phandinhco\\2122110336_phandinhco\\wwwroot\\images\\iphone16pm.png",
+      "SourceId": "2122110336_phandinhco",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Dinh Co\\Desktop\\2122110336_phandinhco\\2122110336_phandinhco\\wwwroot\\",
+      "BasePath": "_content/2122110336_phandinhco",
+      "RelativePath": "images/iphone16pm#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "5e1m1x48po",
+      "Integrity": "c0qQ2G2Z1rXybPzKSp82DxY0/FUYPxFcN5TP5CbKtsg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\iphone16pm.png"
+    },
+    {
+      "Identity": "C:\\Users\\Dinh Co\\Desktop\\2122110336_phandinhco\\2122110336_phandinhco\\wwwroot\\images\\pngtree_3d_laptop_original_design_png_image_6688925_c508ac8cf5.png",
+      "SourceId": "2122110336_phandinhco",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Dinh Co\\Desktop\\2122110336_phandinhco\\2122110336_phandinhco\\wwwroot\\",
+      "BasePath": "_content/2122110336_phandinhco",
+      "RelativePath": "images/pngtree_3d_laptop_original_design_png_image_6688925_c508ac8cf5#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "vmnr0osq54",
+      "Integrity": "Z1CAeynMgm1znSJEiOkX8sne0Qd8kZDK09f6TMskT6M=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\pngtree_3d_laptop_original_design_png_image_6688925_c508ac8cf5.png"
+    },
     {
       "Identity": "C:\\Users\\Dinh Co\\Desktop\\2122110336_phandinhco\\2122110336_phandinhco\\wwwroot\\images\\tải xuống (1).jpg",
       "SourceId": "2122110336_phandinhco",
@@ -57,9 +246,789 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\tải xuống.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Dinh Co\\Desktop\\2122110336_phandinhco\\2122110336_phandinhco\\wwwroot\\images\\tải xuống.png",
+      "SourceId": "2122110336_phandinhco",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Dinh Co\\Desktop\\2122110336_phandinhco\\2122110336_phandinhco\\wwwroot\\",
+      "BasePath": "_content/2122110336_phandinhco",
+      "RelativePath": "images/tải xuống#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "1rigud3wbi",
+      "Integrity": "E9uwaUGOFlzJ+q+T7z72+yb/zUZG5/kAP83c3qshsJM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\tải xuống.png"
+    },
+    {
+      "Identity": "C:\\Users\\Dinh Co\\Desktop\\2122110336_phandinhco\\2122110336_phandinhco\\wwwroot\\images\\xiaomi_redmi_13_pro_5g.webp",
+      "SourceId": "2122110336_phandinhco",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Dinh Co\\Desktop\\2122110336_phandinhco\\2122110336_phandinhco\\wwwroot\\",
+      "BasePath": "_content/2122110336_phandinhco",
+      "RelativePath": "images/xiaomi_redmi_13_pro_5g#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "hkt8h7hhxe",
+      "Integrity": "scTvMNFHXbghGDj15Ah903FFWFatJHHmSBxMvkAIYjA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\xiaomi_redmi_13_pro_5g.webp"
     }
   ],
   "Endpoints": [
+    {
+      "Route": "images/dien-thoai-samsung-galaxy-s25-ultra_2__3_1.cpug1dihyu.webp",
+      "AssetFile": "C:\\Users\\Dinh Co\\Desktop\\2122110336_phandinhco\\2122110336_phandinhco\\wwwroot\\images\\dien-thoai-samsung-galaxy-s25-ultra_2__3_1.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "12148"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"kKuUQTwQpfyr+3AhEdklhCEcVJJEaVVh3qr/xjOONBo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 24 Apr 2025 09:39:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "cpug1dihyu"
+        },
+        {
+          "Name": "label",
+          "Value": "images/dien-thoai-samsung-galaxy-s25-ultra_2__3_1.webp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-kKuUQTwQpfyr+3AhEdklhCEcVJJEaVVh3qr/xjOONBo="
+        }
+      ]
+    },
+    {
+      "Route": "images/dien-thoai-samsung-galaxy-s25-ultra_2__3_1.webp",
+      "AssetFile": "C:\\Users\\Dinh Co\\Desktop\\2122110336_phandinhco\\2122110336_phandinhco\\wwwroot\\images\\dien-thoai-samsung-galaxy-s25-ultra_2__3_1.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "12148"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"kKuUQTwQpfyr+3AhEdklhCEcVJJEaVVh3qr/xjOONBo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 24 Apr 2025 09:39:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-kKuUQTwQpfyr+3AhEdklhCEcVJJEaVVh3qr/xjOONBo="
+        }
+      ]
+    },
+    {
+      "Route": "images/dien-thoai-xiaomi-redmi-note-14-5g.1.jjmm408gcj.webp",
+      "AssetFile": "C:\\Users\\Dinh Co\\Desktop\\2122110336_phandinhco\\2122110336_phandinhco\\wwwroot\\images\\dien-thoai-xiaomi-redmi-note-14-5g.1.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6606"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"nx/72THVoiVPMtctiOvePwZFXO/smMsyqt01Hb+PGB8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 24 Apr 2025 09:58:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "jjmm408gcj"
+        },
+        {
+          "Name": "label",
+          "Value": "images/dien-thoai-xiaomi-redmi-note-14-5g.1.webp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-nx/72THVoiVPMtctiOvePwZFXO/smMsyqt01Hb+PGB8="
+        }
+      ]
+    },
+    {
+      "Route": "images/dien-thoai-xiaomi-redmi-note-14-5g.1.webp",
+      "AssetFile": "C:\\Users\\Dinh Co\\Desktop\\2122110336_phandinhco\\2122110336_phandinhco\\wwwroot\\images\\dien-thoai-xiaomi-redmi-note-14-5g.1.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6606"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"nx/72THVoiVPMtctiOvePwZFXO/smMsyqt01Hb+PGB8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 24 Apr 2025 09:58:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-nx/72THVoiVPMtctiOvePwZFXO/smMsyqt01Hb+PGB8="
+        }
+      ]
+    },
+    {
+      "Route": "images/Flag_of_Vietnam.svg.png",
+      "AssetFile": "C:\\Users\\Dinh Co\\Desktop\\2122110336_phandinhco\\2122110336_phandinhco\\wwwroot\\images\\Flag_of_Vietnam.svg.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1576"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vAiTysjz/uqGqsZjkrxgXtigGF5dOuipSEYS5j5OpLo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 22 Apr 2025 15:00:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-vAiTysjz/uqGqsZjkrxgXtigGF5dOuipSEYS5j5OpLo="
+        }
+      ]
+    },
+    {
+      "Route": "images/Flag_of_Vietnam.svg.wh071m8314.png",
+      "AssetFile": "C:\\Users\\Dinh Co\\Desktop\\2122110336_phandinhco\\2122110336_phandinhco\\wwwroot\\images\\Flag_of_Vietnam.svg.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1576"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vAiTysjz/uqGqsZjkrxgXtigGF5dOuipSEYS5j5OpLo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 22 Apr 2025 15:00:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "wh071m8314"
+        },
+        {
+          "Name": "label",
+          "Value": "images/Flag_of_Vietnam.svg.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-vAiTysjz/uqGqsZjkrxgXtigGF5dOuipSEYS5j5OpLo="
+        }
+      ]
+    },
+    {
+      "Route": "images/frame_166_3.8g13c5srno.webp",
+      "AssetFile": "C:\\Users\\Dinh Co\\Desktop\\2122110336_phandinhco\\2122110336_phandinhco\\wwwroot\\images\\frame_166_3.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10722"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"GGp4BHpqIwJ60A9TYfWg/C3w0yUEQEqvdZ+Ld52V9Xs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 24 Apr 2025 09:51:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8g13c5srno"
+        },
+        {
+          "Name": "label",
+          "Value": "images/frame_166_3.webp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-GGp4BHpqIwJ60A9TYfWg/C3w0yUEQEqvdZ+Ld52V9Xs="
+        }
+      ]
+    },
+    {
+      "Route": "images/frame_166_3.webp",
+      "AssetFile": "C:\\Users\\Dinh Co\\Desktop\\2122110336_phandinhco\\2122110336_phandinhco\\wwwroot\\images\\frame_166_3.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10722"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"GGp4BHpqIwJ60A9TYfWg/C3w0yUEQEqvdZ+Ld52V9Xs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 24 Apr 2025 09:51:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-GGp4BHpqIwJ60A9TYfWg/C3w0yUEQEqvdZ+Ld52V9Xs="
+        }
+      ]
+    },
+    {
+      "Route": "images/iphone11.jhjsmp8bvu.png",
+      "AssetFile": "C:\\Users\\Dinh Co\\Desktop\\2122110336_phandinhco\\2122110336_phandinhco\\wwwroot\\images\\iphone11.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "87147"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"WZQBm1c8fyf11e+6vRQavD/vQ7jOThROanNpjLbM7Ug=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 24 Apr 2025 09:28:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "jhjsmp8bvu"
+        },
+        {
+          "Name": "label",
+          "Value": "images/iphone11.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-WZQBm1c8fyf11e+6vRQavD/vQ7jOThROanNpjLbM7Ug="
+        }
+      ]
+    },
+    {
+      "Route": "images/iphone11.png",
+      "AssetFile": "C:\\Users\\Dinh Co\\Desktop\\2122110336_phandinhco\\2122110336_phandinhco\\wwwroot\\images\\iphone11.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "87147"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"WZQBm1c8fyf11e+6vRQavD/vQ7jOThROanNpjLbM7Ug=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 24 Apr 2025 09:28:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-WZQBm1c8fyf11e+6vRQavD/vQ7jOThROanNpjLbM7Ug="
+        }
+      ]
+    },
+    {
+      "Route": "images/iphone13.png",
+      "AssetFile": "C:\\Users\\Dinh Co\\Desktop\\2122110336_phandinhco\\2122110336_phandinhco\\wwwroot\\images\\iphone13.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "96066"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"QMAQEuF4bB9w1paV8k1c6tKdZa7LKMlvg0jDUB+rJ+s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 24 Apr 2025 09:31:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-QMAQEuF4bB9w1paV8k1c6tKdZa7LKMlvg0jDUB+rJ+s="
+        }
+      ]
+    },
+    {
+      "Route": "images/iphone13.s1wogqlwky.png",
+      "AssetFile": "C:\\Users\\Dinh Co\\Desktop\\2122110336_phandinhco\\2122110336_phandinhco\\wwwroot\\images\\iphone13.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "96066"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"QMAQEuF4bB9w1paV8k1c6tKdZa7LKMlvg0jDUB+rJ+s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 24 Apr 2025 09:31:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "s1wogqlwky"
+        },
+        {
+          "Name": "label",
+          "Value": "images/iphone13.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-QMAQEuF4bB9w1paV8k1c6tKdZa7LKMlvg0jDUB+rJ+s="
+        }
+      ]
+    },
+    {
+      "Route": "images/iphone14pm.flnu0ltc0a.png",
+      "AssetFile": "C:\\Users\\Dinh Co\\Desktop\\2122110336_phandinhco\\2122110336_phandinhco\\wwwroot\\images\\iphone14pm.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "234418"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Delie+LRDs7EewOZuGBRAVx5Unde0DTRtaLn+Z6uuxQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 24 Apr 2025 09:32:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "flnu0ltc0a"
+        },
+        {
+          "Name": "label",
+          "Value": "images/iphone14pm.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Delie+LRDs7EewOZuGBRAVx5Unde0DTRtaLn+Z6uuxQ="
+        }
+      ]
+    },
+    {
+      "Route": "images/iphone14pm.png",
+      "AssetFile": "C:\\Users\\Dinh Co\\Desktop\\2122110336_phandinhco\\2122110336_phandinhco\\wwwroot\\images\\iphone14pm.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "234418"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Delie+LRDs7EewOZuGBRAVx5Unde0DTRtaLn+Z6uuxQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 24 Apr 2025 09:32:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Delie+LRDs7EewOZuGBRAVx5Unde0DTRtaLn+Z6uuxQ="
+        }
+      ]
+    },
+    {
+      "Route": "images/iphone16pm.5e1m1x48po.png",
+      "AssetFile": "C:\\Users\\Dinh Co\\Desktop\\2122110336_phandinhco\\2122110336_phandinhco\\wwwroot\\images\\iphone16pm.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "96498"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"c0qQ2G2Z1rXybPzKSp82DxY0/FUYPxFcN5TP5CbKtsg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 24 Apr 2025 09:34:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5e1m1x48po"
+        },
+        {
+          "Name": "label",
+          "Value": "images/iphone16pm.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-c0qQ2G2Z1rXybPzKSp82DxY0/FUYPxFcN5TP5CbKtsg="
+        }
+      ]
+    },
+    {
+      "Route": "images/iphone16pm.png",
+      "AssetFile": "C:\\Users\\Dinh Co\\Desktop\\2122110336_phandinhco\\2122110336_phandinhco\\wwwroot\\images\\iphone16pm.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "96498"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"c0qQ2G2Z1rXybPzKSp82DxY0/FUYPxFcN5TP5CbKtsg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 24 Apr 2025 09:34:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-c0qQ2G2Z1rXybPzKSp82DxY0/FUYPxFcN5TP5CbKtsg="
+        }
+      ]
+    },
+    {
+      "Route": "images/pngtree_3d_laptop_original_design_png_image_6688925_c508ac8cf5.png",
+      "AssetFile": "C:\\Users\\Dinh Co\\Desktop\\2122110336_phandinhco\\2122110336_phandinhco\\wwwroot\\images\\pngtree_3d_laptop_original_design_png_image_6688925_c508ac8cf5.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "30537"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Z1CAeynMgm1znSJEiOkX8sne0Qd8kZDK09f6TMskT6M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 22 Apr 2025 13:09:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Z1CAeynMgm1znSJEiOkX8sne0Qd8kZDK09f6TMskT6M="
+        }
+      ]
+    },
+    {
+      "Route": "images/pngtree_3d_laptop_original_design_png_image_6688925_c508ac8cf5.vmnr0osq54.png",
+      "AssetFile": "C:\\Users\\Dinh Co\\Desktop\\2122110336_phandinhco\\2122110336_phandinhco\\wwwroot\\images\\pngtree_3d_laptop_original_design_png_image_6688925_c508ac8cf5.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "30537"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Z1CAeynMgm1znSJEiOkX8sne0Qd8kZDK09f6TMskT6M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 22 Apr 2025 13:09:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "vmnr0osq54"
+        },
+        {
+          "Name": "label",
+          "Value": "images/pngtree_3d_laptop_original_design_png_image_6688925_c508ac8cf5.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Z1CAeynMgm1znSJEiOkX8sne0Qd8kZDK09f6TMskT6M="
+        }
+      ]
+    },
     {
       "Route": "images/tải xuống (1).6pcac28ss7.jpg",
       "AssetFile": "C:\\Users\\Dinh Co\\Desktop\\2122110336_phandinhco\\2122110336_phandinhco\\wwwroot\\images\\tải xuống (1).jpg",
@@ -83,7 +1052,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 18 Apr 2025 07:46:39 GMT"
+          "Value": "Tue, 22 Apr 2025 14:53:56 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -128,7 +1097,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 18 Apr 2025 07:46:39 GMT"
+          "Value": "Tue, 22 Apr 2025 14:53:56 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -139,6 +1108,51 @@
         {
           "Name": "integrity",
           "Value": "sha256-Nk1wPSkn9YCxalDK6dCyb7Nafdj6Y04ifpsRXMF1bmg="
+        }
+      ]
+    },
+    {
+      "Route": "images/tải xuống.1rigud3wbi.png",
+      "AssetFile": "C:\\Users\\Dinh Co\\Desktop\\2122110336_phandinhco\\2122110336_phandinhco\\wwwroot\\images\\tải xuống.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3572"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"E9uwaUGOFlzJ+q+T7z72+yb/zUZG5/kAP83c3qshsJM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 22 Apr 2025 14:45:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "1rigud3wbi"
+        },
+        {
+          "Name": "label",
+          "Value": "images/tải xuống.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-E9uwaUGOFlzJ+q+T7z72+yb/zUZG5/kAP83c3qshsJM="
         }
       ]
     },
@@ -165,7 +1179,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 18 Apr 2025 07:59:15 GMT"
+          "Value": "Tue, 22 Apr 2025 14:55:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -176,6 +1190,43 @@
         {
           "Name": "integrity",
           "Value": "sha256-wRwkl5Vi/Uym+cenFvxtnho4eq8Gdu/3Rt3wbV5Tft8="
+        }
+      ]
+    },
+    {
+      "Route": "images/tải xuống.png",
+      "AssetFile": "C:\\Users\\Dinh Co\\Desktop\\2122110336_phandinhco\\2122110336_phandinhco\\wwwroot\\images\\tải xuống.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3572"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"E9uwaUGOFlzJ+q+T7z72+yb/zUZG5/kAP83c3qshsJM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 22 Apr 2025 14:45:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-E9uwaUGOFlzJ+q+T7z72+yb/zUZG5/kAP83c3qshsJM="
         }
       ]
     },
@@ -202,7 +1253,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 18 Apr 2025 07:59:15 GMT"
+          "Value": "Tue, 22 Apr 2025 14:55:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -221,6 +1272,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-wRwkl5Vi/Uym+cenFvxtnho4eq8Gdu/3Rt3wbV5Tft8="
+        }
+      ]
+    },
+    {
+      "Route": "images/xiaomi_redmi_13_pro_5g.hkt8h7hhxe.webp",
+      "AssetFile": "C:\\Users\\Dinh Co\\Desktop\\2122110336_phandinhco\\2122110336_phandinhco\\wwwroot\\images\\xiaomi_redmi_13_pro_5g.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10976"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"scTvMNFHXbghGDj15Ah903FFWFatJHHmSBxMvkAIYjA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 24 Apr 2025 10:00:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "hkt8h7hhxe"
+        },
+        {
+          "Name": "label",
+          "Value": "images/xiaomi_redmi_13_pro_5g.webp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-scTvMNFHXbghGDj15Ah903FFWFatJHHmSBxMvkAIYjA="
+        }
+      ]
+    },
+    {
+      "Route": "images/xiaomi_redmi_13_pro_5g.webp",
+      "AssetFile": "C:\\Users\\Dinh Co\\Desktop\\2122110336_phandinhco\\2122110336_phandinhco\\wwwroot\\images\\xiaomi_redmi_13_pro_5g.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10976"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"scTvMNFHXbghGDj15Ah903FFWFatJHHmSBxMvkAIYjA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 24 Apr 2025 10:00:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-scTvMNFHXbghGDj15Ah903FFWFatJHHmSBxMvkAIYjA="
         }
       ]
     }

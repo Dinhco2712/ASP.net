@@ -141,6 +141,51 @@ public class AuthController : ControllerBase
 
         return new JwtSecurityTokenHandler().WriteToken(token);
     }
+    [HttpGet("user/{id}")]
+    public IActionResult GetUser(int id)
+    {
+        // Tìm user theo ID
+        var user = _context.Users
+            .Include(u => u.UserRoles)
+            .ThenInclude(ur => ur.Role)
+            .FirstOrDefault(u => u.id == id);
+
+        if (user == null)
+        {
+            return NotFound(new { message = "User not found." });
+        }
+
+        // Trả về thông tin user
+        return Ok(new
+        {
+            id = user.id,
+            name = user.name,
+            email = user.email,
+            roles = user.UserRoles.Select(ur => ur.Role.RoleName).ToList(),
+            createAt = user.createAt,
+            updateAt = user.updateAt
+        });
+    }
+    [HttpGet("users")]
+    public IActionResult GetAllUsers()
+    {
+        // Lấy danh sách tất cả người dùng
+        var users = _context.Users
+            .Include(u => u.UserRoles)
+            .ThenInclude(ur => ur.Role)
+            .Select(user => new
+            {
+                id = user.id,
+                name = user.name,
+                email = user.email,
+                roles = user.UserRoles.Select(ur => ur.Role.RoleName).ToList(),
+                createAt = user.createAt,
+                updateAt = user.updateAt
+            })
+            .ToList();
+
+        return Ok(users);
+    }
 
 
 }

@@ -19,7 +19,7 @@ namespace _2122110336_phandinhco.Model
         [Required]
         public string password { get; set; }
 
-        public string role { get; set; } = "user"; // Giữ lại thuộc tính này
+        public string role { get; set; } = "user";
 
         public DateTime createAt { get; set; } = DateTime.Now;
 

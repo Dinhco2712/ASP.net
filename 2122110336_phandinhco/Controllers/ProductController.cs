@@ -114,7 +114,10 @@ namespace _2122110336_phandinhco.Controllers
                     Id = p.id,
                     Name = p.name,
                     CategoryId = p.CategoryId,
-                    CategoryName = p.Category.name
+                    CategoryName = p.Category.name,
+                    Price = p.price,
+                    Description = p.description,
+                    quantity = p.quantity
 
 
                 })
@@ -157,7 +160,21 @@ namespace _2122110336_phandinhco.Controllers
 
             return Ok(new { message = "Product created", product });
         }
+        // GET: api/Product/category/3 (Lấy sản phẩm theo categoryId = 3)
+        [HttpGet("category/{categoryId}")]
+        public async Task<ActionResult<IEnumerable<Product>>> GetByCategory(int categoryId)
+        {
+            var products = await _context.Products
+                .Where(p => p.CategoryId == categoryId)
+                .ToListAsync();
 
+            if (products == null || products.Count == 0)
+            {
+                return NotFound("Không có sản phẩm nào trong danh mục này.");
+            }
+
+            return Ok(products);
+        }
         // PUT api/Product/5
         [HttpPut("{id}")]
         public async Task<IActionResult> Put(int id, [FromBody] Product product)

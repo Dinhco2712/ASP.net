@@ -1,12 +1,56 @@
 {
   "Files": [
     {
+      "Id": "C:\\Users\\Dinh Co\\Desktop\\2122110336_phandinhco\\2122110336_phandinhco\\wwwroot\\images\\Flag_of_Vietnam.svg.png",
+      "PackagePath": "staticwebassets\\images\\Flag_of_Vietnam.svg.png"
+    },
+    {
+      "Id": "C:\\Users\\Dinh Co\\Desktop\\2122110336_phandinhco\\2122110336_phandinhco\\wwwroot\\images\\dien-thoai-samsung-galaxy-s25-ultra_2__3_1.webp",
+      "PackagePath": "staticwebassets\\images\\dien-thoai-samsung-galaxy-s25-ultra_2__3_1.webp"
+    },
+    {
+      "Id": "C:\\Users\\Dinh Co\\Desktop\\2122110336_phandinhco\\2122110336_phandinhco\\wwwroot\\images\\dien-thoai-xiaomi-redmi-note-14-5g.1.webp",
+      "PackagePath": "staticwebassets\\images\\dien-thoai-xiaomi-redmi-note-14-5g.1.webp"
+    },
+    {
+      "Id": "C:\\Users\\Dinh Co\\Desktop\\2122110336_phandinhco\\2122110336_phandinhco\\wwwroot\\images\\frame_166_3.webp",
+      "PackagePath": "staticwebassets\\images\\frame_166_3.webp"
+    },
+    {
+      "Id": "C:\\Users\\Dinh Co\\Desktop\\2122110336_phandinhco\\2122110336_phandinhco\\wwwroot\\images\\iphone11.png",
+      "PackagePath": "staticwebassets\\images\\iphone11.png"
+    },
+    {
+      "Id": "C:\\Users\\Dinh Co\\Desktop\\2122110336_phandinhco\\2122110336_phandinhco\\wwwroot\\images\\iphone13.png",
+      "PackagePath": "staticwebassets\\images\\iphone13.png"
+    },
+    {
+      "Id": "C:\\Users\\Dinh Co\\Desktop\\2122110336_phandinhco\\2122110336_phandinhco\\wwwroot\\images\\iphone14pm.png",
+      "PackagePath": "staticwebassets\\images\\iphone14pm.png"
+    },
+    {
+      "Id": "C:\\Users\\Dinh Co\\Desktop\\2122110336_phandinhco\\2122110336_phandinhco\\wwwroot\\images\\iphone16pm.png",
+      "PackagePath": "staticwebassets\\images\\iphone16pm.png"
+    },
+    {
+      "Id": "C:\\Users\\Dinh Co\\Desktop\\2122110336_phandinhco\\2122110336_phandinhco\\wwwroot\\images\\pngtree_3d_laptop_original_design_png_image_6688925_c508ac8cf5.png",
+      "PackagePath": "staticwebassets\\images\\pngtree_3d_laptop_original_design_png_image_6688925_c508ac8cf5.png"
+    },
+    {
       "Id": "C:\\Users\\Dinh Co\\Desktop\\2122110336_phandinhco\\2122110336_phandinhco\\wwwroot\\images\\tải xuống (1).jpg",
       "PackagePath": "staticwebassets\\images\\tải xuống (1).jpg"
     },
     {
       "Id": "C:\\Users\\Dinh Co\\Desktop\\2122110336_phandinhco\\2122110336_phandinhco\\wwwroot\\images\\tải xuống.jpg",
       "PackagePath": "staticwebassets\\images\\tải xuống.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dinh Co\\Desktop\\2122110336_phandinhco\\2122110336_phandinhco\\wwwroot\\images\\tải xuống.png",
+      "PackagePath": "staticwebassets\\images\\tải xuống.png"
+    },
+    {
+      "Id": "C:\\Users\\Dinh Co\\Desktop\\2122110336_phandinhco\\2122110336_phandinhco\\wwwroot\\images\\xiaomi_redmi_13_pro_5g.webp",
+      "PackagePath": "staticwebassets\\images\\xiaomi_redmi_13_pro_5g.webp"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.2122110336_phandinhco.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
